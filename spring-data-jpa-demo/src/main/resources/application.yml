@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-data-jpa-demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/data_jpa_demo
+    username: root
+    password:
+    hikari:
+      connection-timeout: 5000
+      minimum-idle: 1
+      maximum-pool-size: 3
+      idle-timeout: 120000
+  jpa:
+    show-sql: true
