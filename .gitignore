@@ -21,6 +21,7 @@
 
 # IntelliJ IDEA project files
 .idea/
+*.iml
 
 # Maven target dir
 target/
