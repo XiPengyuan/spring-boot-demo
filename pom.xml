@@ -17,6 +17,7 @@
     <modules>
         <module>mybatis-plus-demo</module>
         <module>spring-data-jpa-demo</module>
+        <module>spring-data-mongo-demo</module>
     </modules>
 
     <dependencies>

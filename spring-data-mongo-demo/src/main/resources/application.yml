@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-data-mongo-demo
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: data_mongo_demo
