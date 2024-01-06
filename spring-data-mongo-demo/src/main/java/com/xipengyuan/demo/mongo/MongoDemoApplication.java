@@ -1,4 +1,4 @@
-package com.xipengyuan.demo;
+package com.xipengyuan.demo.mongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

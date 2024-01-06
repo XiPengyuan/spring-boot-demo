@@ -1,6 +1,6 @@
-package com.xipengyuan.demo.persistence.repository;
+package com.xipengyuan.demo.mongo.persistence.repository;
 
-import com.xipengyuan.demo.persistence.document.UserDoc;
+import com.xipengyuan.demo.mongo.persistence.document.UserDoc;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UserRepository extends MongoRepository<UserDoc, String> {

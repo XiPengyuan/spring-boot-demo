@@ -1,4 +1,4 @@
-package com.xipengyuan.demo.persistence.document;
+package com.xipengyuan.demo.mongo.persistence.document;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,7 +8,7 @@ import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
-@Document("User")
+@Document("users")
 @TypeAlias("User")
 @AllArgsConstructor
 @Getter

@@ -1,6 +1,6 @@
-package com.xipengyuan.demo.persistence.repository;
+package com.xipengyuan.demo.mongo.persistence.repository;
 
-import com.xipengyuan.demo.persistence.document.UserDoc;
+import com.xipengyuan.demo.mongo.persistence.document.UserDoc;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

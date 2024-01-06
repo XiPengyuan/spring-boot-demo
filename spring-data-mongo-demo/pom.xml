@@ -12,7 +12,7 @@
     </parent>
 
     <properties>
-        <start-class>com.xipengyuan.demo.MongoDemoApplication</start-class>
+        <start-class>com.xipengyuan.demo.mongo.MongoDemoApplication</start-class>
     </properties>
 
     <dependencies>
