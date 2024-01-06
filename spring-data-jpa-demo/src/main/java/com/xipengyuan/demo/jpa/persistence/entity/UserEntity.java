@@ -1,6 +1,6 @@
-package com.xipengyuan.demo.persistence.entity;
+package com.xipengyuan.demo.jpa.persistence.entity;
 
-import com.xipengyuan.demo.enumeration.Grade;
+import com.xipengyuan.demo.jpa.enumeration.Grade;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

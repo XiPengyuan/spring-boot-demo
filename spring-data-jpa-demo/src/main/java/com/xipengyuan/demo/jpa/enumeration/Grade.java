@@ -1,4 +1,4 @@
-package com.xipengyuan.demo.enumeration;
+package com.xipengyuan.demo.jpa.enumeration;
 
 import lombok.Getter;
 

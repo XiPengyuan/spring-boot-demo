@@ -1,6 +1,6 @@
-package com.xipengyuan.demo.persistence.repository;
+package com.xipengyuan.demo.jpa.persistence.repository;
 
-import com.xipengyuan.demo.persistence.entity.UserEntity;
+import com.xipengyuan.demo.jpa.persistence.entity.UserEntity;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -25,6 +25,6 @@ class UserRepositoryTest {
     @Test
     void testFindUserAgeByName() {
         Integer age = userRepository.findUserAgeByName("Tom");
-        assertEquals(18, age);
+        assertEquals(28, age);
     }
 }

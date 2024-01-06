@@ -1,4 +1,4 @@
-package com.xipengyuan.demo.persistence.repository.dao;
+package com.xipengyuan.demo.jpa.persistence.repository.dao;
 
 public interface UserDao {
 

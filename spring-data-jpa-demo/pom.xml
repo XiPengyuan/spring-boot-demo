@@ -12,7 +12,7 @@
     </parent>
 
     <properties>
-        <start-class>com.xipengyuan.demo.JpaDemoApplication</start-class>
+        <start-class>com.xipengyuan.demo.jpa.JpaDemoApplication</start-class>
     </properties>
 
     <dependencies>

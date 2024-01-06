@@ -1,7 +1,7 @@
-package com.xipengyuan.demo.persistence.repository.dao.impl;
+package com.xipengyuan.demo.jpa.persistence.repository.dao.impl;
 
-import com.xipengyuan.demo.persistence.entity.UserEntity;
-import com.xipengyuan.demo.persistence.repository.dao.UserDao;
+import com.xipengyuan.demo.jpa.persistence.entity.UserEntity;
+import com.xipengyuan.demo.jpa.persistence.repository.dao.UserDao;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.criteria.CriteriaBuilder;
