@@ -2,9 +2,9 @@ spring:
   application:
     name: spring-data-jpa-demo
   datasource:
-    url: jdbc:mysql://localhost:3306/data_jpa_demo
-    username: root
-    password:
+    url: jdbc:mysql://localhost:3306/dao_demo_common_db
+    username: demo.user
+    password: 123456
     hikari:
       connection-timeout: 5000
       minimum-idle: 1

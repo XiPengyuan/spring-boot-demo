@@ -6,9 +6,9 @@ import lombok.Getter;
 @Getter
 public enum Grade {
 
-    PRIMARY(1, "小学"),
-    SECONDARY(2, "中学"),
-    HIGH(3, "高中");
+    PRIMARY(0, "小学"),
+    SECONDARY(1, "初中"),
+    HIGH(2, "高中");
 
     @EnumValue
     private final int code;

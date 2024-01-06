@@ -1,11 +1,12 @@
 package com.xipengyuan.demo.persistence.entity;
 
+import com.xipengyuan.demo.enumeration.Grade;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "t_user")
+@Table(name = "tb_user")
 @Getter
 @Setter
 public class UserEntity {
@@ -14,10 +15,15 @@ public class UserEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "user_num")
+    private String number;
+
     private String name;
 
     private Integer age;
 
-    @Column(name = "address")
-    private String address;
+    @Enumerated
+    private Grade grade;
+
+    private String email;
 }
