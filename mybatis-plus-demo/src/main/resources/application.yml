@@ -6,8 +6,17 @@ spring:
     url: jdbc:mysql://localhost:3306/dao_demo_common_db
     username: demo.user
     password: 123456
-    hikari:
-      connection-timeout: 5000
-      minimum-idle: 1
-      maximum-pool-size: 3
-      idle-timeout: 120000
+    druid:
+      filters: stat
+      max-active: 20
+      initial-size: 1
+      max-wait: 6000
+      min-idle: 1
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      async-init: true
